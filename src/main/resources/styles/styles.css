@@ -1,0 +1,22 @@
+/* Application wide styles */
+
+.button {
+	-fx-background-image: url("../images/white.png");
+	-fx-background-size: 100% 100%;
+    -fx-text-fill: #4286f4;
+
+    -fx-background-color: rgba(255, 255, 255, .10);   
+    -fx-effect: dropshadow( three-pass-box , rgb(66, 134, 244) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover{
+	 -fx-text-fill: #bcd6ff;
+}
+
+/* Titlescreen */
+
+.gamePane {
+    -fx-background-image: url("../images/mainmenu01.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
